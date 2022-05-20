@@ -124,7 +124,7 @@
 
 <addon id="plugin.video.Genocide"
 	   name="[COLORcyan]Genocide[/COLOR]"
-	   version="1.2.7"
+	   version="1.2.8"
 	   provider-name="[COLORcyan]Genocide[/COLOR]">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -140,30 +140,6 @@
 	<reuselanguageinvoker>true</reuselanguageinvoker>
     <summary lang="en">Genocide</summary>
     <description lang="en">Genocide</description>
-
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-
-</addon>
-
-<addon id="plugin.video.ghost"
-	   name="Ghost"
-	   version="1.2.9"
-	   provider-name="Ghost">
-  <requires>
-	<import addon="script.module.resolveurl"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Ghost Addon</summary>
-    <description lang="en">All in one addon</description>
 
     <platform>all</platform>
 	<assets>
