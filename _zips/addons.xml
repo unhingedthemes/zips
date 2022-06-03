@@ -122,6 +122,40 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.frenchie" name="Frenchie" provider-name="" version="1.0.0">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.frenchie.artwork" />
+        <import addon="script.frenchie.metadata" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.frenchiescrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.simplejson" />
+        <import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="frenchie.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">frenchie</summary>
+        <description lang="en_GB">Frenchie Addon</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.Genocide"
 	   name="[COLORcyan]Genocide[/COLOR]"
 	   version="1.2.8"
@@ -488,6 +522,38 @@
     </extension>
 </addon>
 
+<addon id="script.frenchie.artwork" version="1.0.0" name="[COLORred]Frenchie Artwork[/COLOR]" provider-name="Frenchie">
+	<requires>
+		<!--<import addon="xbmc.python" version="2.19.0"/>-->
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Frenchie Addon</summary>
+		<description></description>
+		<platform>all</platform>
+		<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+	</extension>
+</addon>
+
+<addon id="script.frenchie.metadata" version="1.0.0" name="[COLORred]Frenchie Metadata[/COLOR]" provider-name="Frenchie">
+	<requires>
+		<!--<import addon="xbmc.python" version="2.19.0"/>-->
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Frenchie Addon</summary>
+		<description>Metadata for Frenchie are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+		<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+	</extension>
+</addon>
+
 <addon id="script.module.cryptopy" name="CryptoPy" version="1.2.10" provider-name="cryptopy.sourceforge.net">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -524,6 +590,33 @@
     <platform>all</platform>
     <license></license>
    </extension>
+</addon>
+
+<addon id="script.module.frenchiescrapers" name="[COLORred]Frenchie Scrapers[/COLOR]" version="1.0.0" provider-name="Frenchie">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.simplejson" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">Frenchie Scrapers Module</summary>
+            <description>Frenchie Scrapers</description>
+                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news></news>
+    </extension>
 </addon>
 
 <addon id="script.module.idna"
