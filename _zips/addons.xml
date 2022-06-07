@@ -206,7 +206,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.0">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.1">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.homelander.metadata" />-->
@@ -217,6 +217,7 @@
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.simplejson" />
+		<import addon="plugin.video.youtube" optional="true" />
     </requires>
     <extension library="homelander.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -524,22 +525,6 @@
     </extension>
 </addon>
 
-<addon id="script.frenchie.artwork" version="1.0.0" name="[COLORred]Frenchie Artwork[/COLOR]" provider-name="Frenchie">
-	<requires>
-		<!--<import addon="xbmc.python" version="2.19.0"/>-->
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Frenchie Addon</summary>
-		<description></description>
-		<platform>all</platform>
-		<assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-	</extension>
-</addon>
-
 <addon id="script.homelander.artwork" version="1.0.0" name="[COLOR red]Homelander [/COLOR]Artwork" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
@@ -594,7 +579,7 @@
    </extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.0.0" provider-name="Homelander">
+<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.0.1" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
