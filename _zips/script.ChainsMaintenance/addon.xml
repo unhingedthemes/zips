@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.ChainsMaintenance" name="ChainsMaintenance" version="2022.19.4" provider-name="Chains">
+<addon id="script.ChainsMaintenance" name="ChainsMaintenance" version="19.4" provider-name="Chains">
   <requires>
-    <import addon="script.module.requests" version="1.0.0" />
+    <import addon="script.module.requests" version="1.0.1" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
      <provides>executable</provides>
@@ -9,7 +9,7 @@
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
 	<summary>Maintenance Tool for Kodi</summary>
-	<description>Just Keep your Kodi sharp and clean with this utility tool with a Custom Wizard Feature.</description>
+	<description>Keep your Kodi running the way you want fast with a Custom Wizard Feature.</description>
     <language></language>
     <platform>all</platform>
     <license>The MIT License</license>
