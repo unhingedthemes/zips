@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.ChainsMaintenance" name="Chains Maintenance" version="1.3" provider-name="Chains">
+<addon id="script.ChainsMaintenance" name="Chains Maintenance" version="1.4" provider-name="Chains">
   <requires>
     <import addon="script.module.requests" version="1.0.1" />
   </requires>
