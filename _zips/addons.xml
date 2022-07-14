@@ -124,8 +124,8 @@
 
 <addon id="plugin.video.gallifrey"
 	   name="Gallifrey"
-	   version="1.0.2"
-	   provider-name="AA">
+	   version="1.0.3"
+	   provider-name="John Smith">
   <requires>
 
   </requires>
