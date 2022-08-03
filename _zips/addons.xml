@@ -177,10 +177,9 @@
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.3.2"
+	   version="1.3.3"
 	   provider-name="Ghost">
   <requires>
-    <import addon="plugin.video.ghosttv"/>
 	<import addon="script.module.resolveurl"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -201,7 +200,7 @@
 
 </addon>
 
-<addon id="plugin.video.ghosttv" name="  [B][COLOR red]Ghost TV[/COLOR][/B]" version="1.0" provider-name="Ghost">
+<addon id="plugin.video.ghosttv" name="[COLOR red]Ghost TV[/COLOR]" version="1.1" provider-name="Ghost">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.six" />
@@ -223,8 +222,7 @@
 
 	<extension point="xbmc.addon.metadata">
 		<summary>Ghost 247 Tv</summary>
-		<description>
-		</description>
+		<description>Extension For Ghost</description>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
