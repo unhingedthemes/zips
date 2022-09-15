@@ -372,7 +372,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="Chains Reaction Lite"
-	   version="2.0.7"
+	   version="2.0.8"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
