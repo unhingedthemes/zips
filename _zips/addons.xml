@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.ChainsMatrix" name="ChainsMatrix Wizard" version="2.1.7" provider-name="Chains">
+<addon id="plugin.program.ChainsMatrix" name="Chains Wizard" version="2.1.8" provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" optional="true" />
