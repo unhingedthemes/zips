@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.ChainsMatrix" name="Chains Wizard" version="2.1.8" provider-name="Chains">
+<addon id="plugin.program.ChainsMatrix" name="Chains Build Wizard" version="2.1.9" provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" optional="true" />
@@ -10,8 +10,8 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Chains Matrix Wizard is a lightweight template for installing builds on Kodi 19 Matrix. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to Chains on Telegram/Twitter.</summary>
-		<description lang="en_GB">Kodi 19 Wizard</description>
+		<summary lang="en_GB">Chains  Wizard is a lightweight template for installing builds on Kodi. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to Chains on Telegram/Twitter.</summary>
+		<description lang="en_GB">Build Wizard</description>
 		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
 		<language>en</language>
 		<platform>all</platform>
@@ -36,7 +36,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.ComicThemes" name="[COLORghostwhite]Chains Theme Wizard[/COLOR]" version="1.1.1" provider-name="CHAINS">
+<addon id="plugin.program.ComicThemes" name="[COLORghostwhite]Chains Theme Wizard[/COLOR]" version="1.1.2" provider-name="CHAINS">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -603,7 +603,7 @@
     </extension>
 </addon>
 
-<addon id="script.ChainsMaintenance" name="Chains Maintenance" version="1.4" provider-name="Chains">
+<addon id="script.ChainsMaintenance" name="Chains Maintenance" version="1.5" provider-name="Chains">
   <requires>
     <import addon="script.module.requests" version="1.0.2" />
   </requires>
