@@ -26,8 +26,8 @@
 0.0.2 - Initial Release
 		</news>
 		<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
 				<banner></banner>
 				<clearlogo></clearlogo>
 				<screenshot></screenshot>

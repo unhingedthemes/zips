@@ -98,8 +98,8 @@
 0.0.2 - Initial Release
 		</news>
 		<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
 				<banner></banner>
 				<clearlogo></clearlogo>
 				<screenshot></screenshot>
@@ -376,7 +376,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="Chains Reaction"
-	   version="2.1.3"
+	   version="2.1.4"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
