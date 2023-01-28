@@ -67,7 +67,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.funs19wiz" name="Funswizard" version="1.7" provider-name="Funsterbe">
+<addon id="plugin.program.funs19wiz" name="Funswizard" version="1.8" provider-name="Funsterbe">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" optional="true" />
