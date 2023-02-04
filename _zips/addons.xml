@@ -67,7 +67,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.funs19wiz" name="Funswizard" version="1.8" provider-name="Funsterbe">
+<addon id="plugin.program.funs19wiz" name="Funswizard" version="1.9" provider-name="Funsterbe">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" optional="true" />
@@ -87,11 +87,11 @@
 		<website></website>
 		<email></email>
 		<source></source>
-		<news>3.0.0 - Added backup/restore functionality for trakt/debrid accounts. Updated debrid/trakt authorization section. Restore of gui/skin settings has been added. Updated Advancedsettings configs. Updated wizard artwork. Added user edited color options for menus. Fixed wizard writing over itself during build installs. Edited fresh start to keep wizard/dependencies. Removed double ok dialog during build installs. Numerous other small fixes throughout.
+		<news>3.0.2 - Added speedtest. Bugfixes. 3.0.0 - Added backup/restore functionality for trakt/debrid accounts. Updated debrid/trakt authorization section. Restore of gui/skin settings has been added. Updated Advancedsettings configs. Updated wizard artwork. Added user edited color options for menus. Fixed wizard writing over itself during build installs. Edited fresh start to keep wizard/dependencies. Removed double ok dialog during build installs. Numerous other small fixes throughout.
 		</news>
 		<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
 				<banner></banner>
 				<clearlogo></clearlogo>
 				<screenshot></screenshot>
