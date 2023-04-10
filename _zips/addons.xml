@@ -406,8 +406,8 @@
 </addon>
 
 <addon id="plugin.video.thechains"
-	   name="ChaiS Reaction"
-	   version="2.2.1"
+	   name="Chains Reaction"
+	   version="2.2.2"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
