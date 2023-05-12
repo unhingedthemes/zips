@@ -540,7 +540,7 @@
 
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.0.2~alpha4umb" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="7.0.2~alpha4chains" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.12.4"/>
