@@ -724,7 +724,7 @@
     </extension>
 </addon>
 
-<addon id="script.ChainsMaintenance" name="Chains Maintenance" version="1.5" provider-name="Chains">
+<addon id="script.ChainsMaintenance" name="Chains Maintenance" version="1.6" provider-name="Chains">
   <requires>
     <import addon="script.module.requests" version="1.0.2" />
   </requires>
