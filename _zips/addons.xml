@@ -121,7 +121,7 @@
         <import addon="script.absolution.artwork" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.requests" />
-        <import addon="script.module.chainsgenocidescrapers" />
+        <import addon="script.module.absolution" />
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.simplejson" />
@@ -844,7 +844,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.absolution" name="[COLOR red]absolutionScrapers [/COLOR]" version="1.1.4" provider-name="absolution">
+<addon id="script.module.absolutionscrapers" name="[COLOR red]absolution [/COLOR]Scrapers" version="1.1.4" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
