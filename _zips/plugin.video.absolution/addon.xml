@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.absolution" name="[COLOR red]absolution[/COLOR]" provider-name="absolution" version="0.0.8">
+<addon id="plugin.video.absolution" name="[COLORred]absolution[/COLOR]" provider-name="absolution" version="0.0.9">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.absolution.metadata" />-->
