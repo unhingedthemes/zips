@@ -114,7 +114,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLORred]absolution[/COLOR]" provider-name="absolution" version="0.0.9">
+<addon id="plugin.video.absolution" name="[COLORred]absolution[/COLOR]" provider-name="absolution" version="1.0.1">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.absolution.metadata" />-->
@@ -747,7 +747,7 @@
 	</extension>
 </addon>
 
-<addon id="script.absolution.artwork" version="1.0.2" name="[COLOR red]absolution [/COLOR]Artwork" provider-name="absolution">
+<addon id="script.absolution.artwork" version="1.0.4" name="[COLOR red]absolution [/COLOR]Artwork" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
@@ -844,7 +844,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.absolutionscrapers" name="[COLOR red]absolution [/COLOR]Scrapers" version="1.1.5" provider-name="absolution">
+<addon id="script.module.absolutionscrapers" name="[COLOR red]absolution [/COLOR]Scrapers" version="1.1.7" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
