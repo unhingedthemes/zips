@@ -747,7 +747,7 @@
 	</extension>
 </addon>
 
-<addon id="script.absolution.artwork" version="1.0.4" name="[COLOR red]absolution [/COLOR]Artwork" provider-name="absolution">
+<addon id="script.absolution.artwork" version="1.0.5" name="[COLOR red]absolution [/COLOR]Artwork" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
