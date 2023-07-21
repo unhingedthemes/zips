@@ -321,7 +321,7 @@
 
 <addon id="plugin.video.scifi"
 	   name="For Love Of Sci Fi"
-	   version="1.0.0"
+	   version="1.0.1"
 	   provider-name="Captain Kirk">
   <requires>
 	<import addon="script.module.resolveurl"/>
