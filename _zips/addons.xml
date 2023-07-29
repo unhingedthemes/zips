@@ -114,7 +114,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLOR teal]Absolution[/COLOR]" provider-name="absolution" version="2.0.4">
+<addon id="plugin.video.absolution" name="[COLOR teal]Absolution[/COLOR]" provider-name="absolution" version="2.0.5">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.absolution.metadata" />-->
@@ -345,34 +345,6 @@
     </description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.scifi"
-	   name="For Love Of Sci Fi"
-	   version="1.0.1"
-	   provider-name="Captain Kirk">
-  <requires>
-	<import addon="script.module.resolveurl"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension library="resources/modules/" point="xbmc.python.module" />
-  <extension library="resources/sources/" point="xbmc.python.module" />
-  <extension library="resources/" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-	<reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en">Sci Fi For Kodi Matrix And Nexus</summary>
-    <description lang="en">All Things Sci Fi</description>
-
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-
 </addon>
 
 <addon
