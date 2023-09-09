@@ -152,7 +152,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.coalition" version="1.0.6" name="Coalition" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.0.7" name="Coalition" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
