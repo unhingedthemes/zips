@@ -1,4 +1,4 @@
-<addon id="plugin.video.coalition" version="1.0.7" name="Coalition" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.0.9" name="Coalition" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -63,7 +63,7 @@
         <description lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers</description>
         <disclaimer lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <news>INFO: For latest changes see Changelog within Tools of add-on.This addon searches websites for content.The author is not responsible for the use of this addon.The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</news>
-        <summary>Better to burn up than fade away.</summary>
+        <summary>Media Content</summary>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
