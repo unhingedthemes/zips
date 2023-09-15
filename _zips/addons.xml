@@ -152,7 +152,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.chainsgenocide" name="chains genocide" provider-name="chains" version="1.0.0">
+<addon id="plugin.video.chainsgenocide" name="chains genocide" provider-name="chains" version="1.0.1">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -752,6 +752,10 @@
         <disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
         <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
     </extension>
+	<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
 </addon>
 
 <addon id="plugin.video.zoro" name="Zoro" provider-name="Zoro" version="1.0.0">
