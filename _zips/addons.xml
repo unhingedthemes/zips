@@ -180,7 +180,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.coalition" version="1.1.4" name="Coalition" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.1.5" name="Coalition" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -581,7 +581,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="Chain Reaction"
-	   version="2.3.3"
+	   version="2.3.4"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
