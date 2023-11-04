@@ -581,7 +581,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="Chain Reaction"
-	   version="2.4.1"
+	   version="2.4.2"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -600,7 +600,7 @@
 
     <platform>all</platform>
 	<assets>
-            <icon>icon.png</icon>
+            <icon>icon.gif</icon>
             <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
