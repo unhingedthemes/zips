@@ -1,4 +1,4 @@
-<addon id="plugin.video.coalition" version="1.2.2" name="[COLORghostwhite]The Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.2.3" name="[COLORghostwhite]The Coalition[/COLOR]" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -65,7 +65,7 @@
         <news>INFO: For latest changes see Changelog within Tools of add-on.This addon searches websites for content.The author is not responsible for the use of this addon.The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</news>
         <summary>Media Content</summary>
         <assets>
-            <icon>icon.png</icon>
+            <icon>icon.gif</icon>
             <fanart>fanart.png</fanart>
         </assets>
     </extension>
