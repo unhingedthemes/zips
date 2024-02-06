@@ -448,7 +448,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.luffy" version="1.0.4" name="Luffy" provider-name="Ghost">
+<addon id="plugin.video.luffy" version="1.0.5" name="Luffy" provider-name="Ghost">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -524,7 +524,7 @@
 
 <addon id="plugin.video.scifi"
 	   name="For Love Of Sci Fi"
-	   version="1.0.1"
+	   version="1.0.2"
 	   provider-name="Captain Kirk">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -758,7 +758,7 @@
 		</assets>
 </addon>
 
-<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.6">
+<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.7">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
