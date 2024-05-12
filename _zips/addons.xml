@@ -434,7 +434,7 @@
 
 <addon id="plugin.video.legacy"
 	   name="[COLORsilver]Chains legacy[/COLOR]"
-	   version="1.0.1"
+	   version="1.0.2"
 	   provider-name="[COLORdarkred]legacy[/COLOR]">
   <requires>
 	<import addon="script.module.resolveurl"/>
