@@ -281,35 +281,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.daddylive" name="Daddylive" version="2.2" provider-name="THE CREW">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests" />
-        <import addon="script.module.inputstreamhelper" />
-        <import addon="script.module.six"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <description lang="pl">1.2</description>
-        <disclaimer lang="pl">test
-        </disclaimer>
-        <summary lang="en">Live TV and Sports</summary>
-        <description lang="en">Live TV and Sports</description>
-        <disclaimer lang="en">test
-        </disclaimer>
-        <language>pl</language>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <website></website>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.video.Gallifrey"
 	   name="Gallifrey"
 	   version="1.0.9"
@@ -433,9 +404,9 @@
 </addon>
 
 <addon id="plugin.video.legacy"
-	   name="[COLORsilver]Chains legacy[/COLOR]"
-	   version="1.0.2"
-	   provider-name="[COLORdarkred]legacy[/COLOR]">
+	   name="[COLORorange]Chains legacy[/COLOR]"
+	   version="1.0.3"
+	   provider-name="[COLORorange]legacy[/COLOR]">
   <requires>
 	<import addon="script.module.resolveurl"/>
   </requires>
