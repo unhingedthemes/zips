@@ -180,7 +180,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.chainsunleashed" name="chains unleashed" provider-name="chains" version="1.0.0">
+<addon id="plugin.video.chainsunleashed" name="chains unleashed" provider-name="chains" version="1.0.1">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
