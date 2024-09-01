@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.absolution" name="[COLOR teal]Absolution[/COLOR]" provider-name="absolution" version="2.1.0">
+<addon id="plugin.video.absolution" name="[COLOR darkred]Absolution[/COLOR]" provider-name="absolution" version="2.1.2">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.absolution.metadata" />-->
@@ -19,7 +19,7 @@
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <summary lang="en_GB">Absolution Media</summary>
-        <description lang="en_GB">[COLOR teal]The Chains Team[/COLOR]</description>
+        <description lang="en_GB">[COLOR darkred]The Chains Team[/COLOR]</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <forum />

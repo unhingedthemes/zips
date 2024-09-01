@@ -114,7 +114,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLOR teal]Absolution[/COLOR]" provider-name="absolution" version="2.1.0">
+<addon id="plugin.video.absolution" name="[COLOR darkred]Absolution[/COLOR]" provider-name="absolution" version="2.1.2">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.absolution.metadata" />-->
@@ -134,7 +134,7 @@
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <summary lang="en_GB">Absolution Media</summary>
-        <description lang="en_GB">[COLOR teal]The Chains Team[/COLOR]</description>
+        <description lang="en_GB">[COLOR darkred]The Chains Team[/COLOR]</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <forum />
@@ -711,7 +711,7 @@
 	</extension>
 </addon>
 
-<addon id="script.absolution.artwork" version="1.1.0" name="[COLORteal]Absolution Artwork[/COLOR]Artwork" provider-name="absolution">
+<addon id="script.absolution.artwork" version="2.0.0" name="[COLORdarkred]Absolution Artwork[/COLOR]Artwork" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
@@ -792,7 +792,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.absolutionscrapers" name="[COLOR red]absolution [/COLOR]Scrapers" version="1.1.8" provider-name="absolution">
+<addon id="script.module.absolutionscrapers" name="[COLOR red]absolution [/COLOR]Scrapers" version="2.0.0" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
