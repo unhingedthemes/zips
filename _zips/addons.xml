@@ -792,7 +792,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.absolutionscrapers" name="[COLOR red]absolution [/COLOR]Scrapers" version="2.0.2" provider-name="absolution">
+<addon id="script.module.absolutionscrapers" name="[COLOR red]absolution [/COLOR]Scrapers" version="2.0.3" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
