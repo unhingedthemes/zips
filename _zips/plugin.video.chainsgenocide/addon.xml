@@ -1,4 +1,4 @@
-<addon id="plugin.video.chainsgenocide" name="[COLORdarkcyan]Genocide[/COLOR]" provider-name="chains" version="2.0.4">
+<addon id="plugin.video.chainsgenocide" name="[COLORdarkcyan]Genocide[/COLOR]" provider-name="chains" version="2.0.5">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -13,7 +13,7 @@
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<summary lang="en">[COLORdarkcyan]Genocide[/COLOR] - We do not host any of the contents</summary>
-		<description lang="en">[B][COLORghostwhite]chains genocide[/COLOR][/B]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
+		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<forum />
