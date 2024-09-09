@@ -495,8 +495,8 @@
 </addon>
 
 <addon id="plugin.video.thechains"
-	   name="Chain Reaction"
-	   version="2.5.3"
+	   name="[COLORdarkcyan]Chain Reaction[/COLOR]"
+	   version="2.5.4"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -515,7 +515,7 @@
 
     <platform>all</platform>
 	<assets>
-            <icon>icon.gif</icon>
+            <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
