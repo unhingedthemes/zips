@@ -566,7 +566,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.0.6.3" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.1.0+unofficial" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -628,7 +628,7 @@
         <description lang="es_ES">YouTube es uno de los sitios web para compartir vídeos más grandes del mundo.</description>
         <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
         <description lang="fi_FI">YouTube on yksi maailman suurimmista videoiden jakosivustoista.</description>
-        <description lang="fr_FR">YouTube est l&apos;un des plus grands sites de partage vidéos du monde.</description>
+        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
         <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
         <description lang="hr_HR">YouTube je jedna od najvećih stranica za dijeljenje video sadržaja na svijetu.</description>
         <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
@@ -654,7 +654,7 @@
         <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
         <disclaimer lang="es_MX">Este complemento no está respaldado por Google</disclaimer>
         <disclaimer lang="fi_FI">Google ei tue tätä lisäosaa</disclaimer>
-        <disclaimer lang="fr_FR">Ce module n&apos;est pas validé par Google</disclaimer>
+        <disclaimer lang="fr_FR">Ce module n'est pas validé par Google</disclaimer>
         <disclaimer lang="hr_HR">Ovaj dodatak nije podržan od strane Googlea</disclaimer>
         <disclaimer lang="id_ID">Plugin ini tidak didukung oleh Google</disclaimer>
         <disclaimer lang="it_IT">Questo plugin non è approvato da Google</disclaimer>
@@ -669,7 +669,33 @@
         <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
         <disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
         <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-    </extension>
+    <news>## v7.0.6.3
+### Fixed
+- Improve updating containers and (re)loading windows
+- Fix refreshing video listing also forcing next pages to refresh when loaded
+- Fix overflow error resulting from parsing hashtags as episode numbers
+- Fix 6s delay on video playback start
+- Further fixes for multiple busy dialog crash workaround
+  - Possibly fix issues reported in comments of
+- Update error checks to avoid unnecessary retries of player requests
+- Fix adding and viewing items to internal bookmarks and watchlater list
+- Fix error checks to prevent prematurely stopping retries of player requests
+- Disable using android client player request by default
+
+### Changed
+- Setup Wizard default settings now disable pre-downloading subtitles if MPEG-DASH is enabled
+- Ask for quality, Play with subtitles, Play audio only context menu items only displayed if associated setting is not already enabled
+- Only make extra request for subtitles for Android client when all subtitle languages are enabled
+- Overhaul alternative player support due to Kodi changes and also improve external player support
+- Make "Support alternative player" and "Use YouTube website urls with default player" mutually exclusive options
+- Enable OPUS audio by default
+- Enable MPEG-DASH for live streams by default
+- Setup Wizard will prompt to run when plugin first opens after updating, in order to update default settings
+- http server will shutdown on idle timeout
+- Update client details used for player requests
+
+### New
+- Add r</news></extension>
 </addon>
 
 <addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.1.2">
