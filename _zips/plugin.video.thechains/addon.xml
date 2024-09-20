@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.thechains"                                                                                                                                    
 	   name="[COLORdarkcyan]Chain Reaction[/COLOR]"                                                 
-	   version="2.5.9"                                                                                                                                        
+	   version="2.6.0"                                                                                                                                        
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -16,7 +16,7 @@
   <extension point="xbmc.addon.metadata">
 	<reuselanguageinvoker>true</reuselanguageinvoker>
     <summary lang="en">[COLORdarkcyan]I am the Spirit of Vengeance. Nothing will stop me from inflicting pain on all those who have inflicted it on innocent beings.[/COLOR]</summary>
-    <description lang="en">[COLORdarkcyan]Last time I bothered prayin’ for something, I got swindled outta my soul[/COLOR]</description>
+    <description lang="en">[COLORdarkcyan][B]Last time I bothered prayin’ for something, I got swindled outta my soul[/COLOR][/B]</description>
 	
     <platform>all</platform>
 	<assets>
