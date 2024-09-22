@@ -496,7 +496,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="[COLORdarkcyan]Chain Reaction[/COLOR]"
-	   version="2.6.0"
+	   version="2.6.1"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
