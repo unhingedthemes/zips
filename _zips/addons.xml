@@ -202,7 +202,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.coalition" version="1.3.6" name="[COLORcyan]Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.3.7" name="[COLORcyan]Coalition[/COLOR]" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -277,7 +277,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.4.9"
+	   version="1.5.0"
 	   provider-name="Ghost">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -413,7 +413,7 @@ provider-name="The Cleaner">
   </extension>
 </addon>
 
-<addon id="plugin.video.luffy" version="1.1.0" name="Luffy" provider-name="Ghost">
+<addon id="plugin.video.luffy" version="1.1.1" name="Luffy" provider-name="Ghost">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -676,7 +676,7 @@ provider-name="The Cleaner">
 - Add r</news></extension>
 </addon>
 
-<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.1.2">
+<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.1.3">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
