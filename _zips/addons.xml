@@ -136,9 +136,9 @@ provider-name="The Cleaner">
 </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLOR darkred]Absolution[/COLOR]" provider-name="absolution" version="2.2.7">
+<addon id="plugin.video.absolution" name="[COLOR darkred]Absolution[/COLOR]" provider-name="absolution" version="2.2.8">
     <requires>
-        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="xbmc.python" version="3.0.0" />
         <!--<import addon="script.absolution.metadata" />-->
         <import addon="script.absolution.artwork" />
         <import addon="script.module.resolveurl" />
