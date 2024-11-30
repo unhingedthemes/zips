@@ -838,7 +838,7 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="script.module.absolutionscrapers" name="[COLOR darkred]absolution [/COLOR]Scrapers" version="2.0.7" provider-name="absolution">
+<addon id="script.module.absolutionscrapers" name="[COLOR darkred]absolution [/COLOR]Scrapers" version="2.0.8" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
