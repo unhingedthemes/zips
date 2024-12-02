@@ -277,7 +277,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.5.1"
+	   version="1.5.2"
 	   provider-name="Ghost">
   <requires>
 	<import addon="script.module.requests"/>
