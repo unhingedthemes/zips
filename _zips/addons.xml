@@ -541,7 +541,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
 	   name="Chain Reaction"
-	   version="2.7.3"
+	   version="2.7.4"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
