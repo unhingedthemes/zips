@@ -277,10 +277,11 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.5.3"
+	   version="1.5.4"
 	   provider-name="Ghost">
   <requires>
 	<import addon="script.module.requests"/>
+    <import addon="script.module.resolveurl"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
