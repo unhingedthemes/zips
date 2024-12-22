@@ -136,7 +136,7 @@ provider-name="The Cleaner">
 </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLOR darkred]Absolution[/COLOR]" provider-name="absolution" version="2.3.6">
+<addon id="plugin.video.absolution" name="Absolution" provider-name="absolution" version="2.3.7">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <!--<import addon="script.absolution.metadata" />-->
@@ -156,7 +156,7 @@ provider-name="The Cleaner">
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <summary lang="en_GB">Absolution Media</summary>
-        <description lang="en_GB">[COLOR darkred]The Chains Team[/COLOR]</description>
+        <description lang="en_GB">The Chains Team</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <forum />
