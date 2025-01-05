@@ -541,12 +541,11 @@ provider-name="The Cleaner">
 </addon>
 
 <addon id="plugin.video.thechains"
-	   name="Chain Reaction"
-	   version="2.7.8"
+	   name="Chains Reaction"
+	   version="2.7.9"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
-	<import addon="script.module.resolveurl"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -557,8 +556,8 @@ provider-name="The Cleaner">
   <extension library="resources/" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
 	<reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en">[COLORdarkcyan]I am the Spirit of Vengeance. Nothing will stop me from inflicting pain on all those who have inflicted it on innocent beings.[/COLOR]</summary>
-    <description lang="en">[COLORdarkcyan][B]Last time I bothered prayin’ for something, I got swindled outta my soul[/COLOR][/B]</description>
+    <summary lang="en">Scraper Based</summary>
+    <description lang="en">Faster Than A Speeding Bullet</description>
 
     <platform>all</platform>
 	<assets>
