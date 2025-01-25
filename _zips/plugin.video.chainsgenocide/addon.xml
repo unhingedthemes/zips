@@ -1,4 +1,4 @@
-<addon id="plugin.video.chainsgenocide" name="[COLORghostwhite]Genocide[/COLOR]" provider-name="chains" version="2.1.8">
+<addon id="plugin.video.chainsgenocide" name="[COLORghostwhite]Genocide[/COLOR]" provider-name="chains" version="2.1.9">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
