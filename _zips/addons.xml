@@ -418,7 +418,7 @@ provider-name="The Cleaner">
   </extension>
 </addon>
 
-<addon id="plugin.video.luffy" version="1.1.1" name="Luffy" provider-name="Ghost">
+<addon id="plugin.video.luffy" version="1.1.2" name="Luffy" provider-name="Ghost">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -427,7 +427,15 @@ provider-name="The Cleaner">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="resources/lib/service.py" />
-    <extension point="xbmc.python.module" library="resources/lib/" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <summary>What you like to watch.[CR]</summary>
+        <description lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
+        <news>INFO: For latest changes see Changelog within add-on.</news>
+        <assets><icon>icon.png</icon><fanart>fanart.png</fanart><screenshot>screenshot.jpg</screenshot></assets>
+    </extension>
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <item library="resources/lib/contextmenu.py" args="refresh_widgets">
@@ -462,10 +470,6 @@ provider-name="The Cleaner">
                 <label>40008</label>
                 <visible>[String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)] + String.IsEqual(ListItem.Property(luffy_widget),true)</visible>
             </item>
-            <item library="resources/lib/contextmenu.py" args="luffy_random_params">
-                <label>40010</label>
-                <visible>[String.IsEqual(ListItem.dbtype,tvshow)] + String.IsEqual(ListItem.Property(luffy_widget),true)</visible>
-            </item>
             <item library="resources/lib/contextmenu.py" args="luffy_options_menu_params">
                 <label>40007</label>
                 <visible>String.IsEqual(ListItem.Property(luffy_widget),true)</visible>
@@ -475,20 +479,6 @@ provider-name="The Cleaner">
                 <visible>String.IsEqual(ListItem.Property(luffy_widget),true)</visible>
             </item>
         </menu>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <platform>all</platform>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <description lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers</description>
-        <disclaimer lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <news>INFO: For latest changes see Changelog within Tools of add-on.This addon searches websites for content.[CR]The author is not responsible for the use of this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</news>
-        <summary>Debrid Users Only</summary>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-			<screenshot>screenshot.jpg</screenshot>
-        </assets>
     </extension>
 </addon>
 
@@ -710,31 +700,24 @@ provider-name="The Cleaner">
 - Fix l</news></extension>
 </addon>
 
-<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.1.3">
+<addon id="plugin.video.zoro" version="1.1.4" name="Zoro" provider-name="Ghost">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
-		<import addon="script.module.beautifulsoup4" />
 		<import addon="plugin.video.youtube" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="zoro.py">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.python.module" library="resources/lib/" />
+	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<summary lang="en">Movies And TV Swows (Debrid Scrapers)</summary>
-		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
-		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<forum />
-		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>screenshot.jpg</screenshot>
-		</assets>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+		<summary>Movies And Tv Shows</summary>
+		<description lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
+		<news>INFO: For latest changes see Changelog within add-on.</news>
+		<assets><icon>icon.png</icon><fanart>fanart.jpg</fanart><screenshot>screenshot.jpg</screenshot></assets>
 	</extension>
 </addon>
 
