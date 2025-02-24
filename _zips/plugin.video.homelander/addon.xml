@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Ghost" version="1.2.5">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Ghost" version="1.2.6">
     <requires>
-        <!--<import addon="xbmc.python" version="2.20.0" />-->
-        <!--<import addon="script.homelander.metadata" />-->
+        <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.homelander.artwork" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.requests" />
         <import addon="script.module.homelanderscrapers" />
+        <import addon="script.module.cocoscrapers" />
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.simplejson" />
