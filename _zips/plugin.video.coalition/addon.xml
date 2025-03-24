@@ -1,4 +1,4 @@
-<addon id="plugin.video.coalition" version="1.5.7" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.5.8" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
