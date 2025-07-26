@@ -734,7 +734,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="script.absolution.artwork" version="2.0.9" name="[COLORdarkred]Absolution Artwork[/COLOR]" provider-name="absolution">
+<addon id="script.absolution.artwork" version="2.1.0" name="[COLORlimegreen]Absolution Artwork[/COLOR]" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
