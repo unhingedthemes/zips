@@ -32,41 +32,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.ComicThemes" name="[COLORteal]Chains Theme Wizard[/COLOR]" version="1.1.4" provider-name="CHAINS">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">The Chains Theme Wizard is  for installing Themes Only on Kodi 19 Matrix.</summary>
-		<description lang="en_GB">Kodi Wizard</description>
-		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
-		<language>en</language>
-		<platform>all</platform>
-		<license>GPL-2.0-or-later</license>
-		<forum></forum>
-		<website></website>
-		<email></email>
-		<source></source>
-		<news>1.0.6 - Added Notifications Dialog. Special thanks to Ellie for art and helping with the design. 1.1.4 - Bugfixes. 1.0.3 - Added download progress to build install. 1.0.2 - Added option to encode the buildfile variable to a base64 string. 1.0.1 - Added the option to use json for build file. 1.0.0 - Basic clean up. Ready for official release. 0.0.9 - Added Save Menu, 0.0.8 - Bug fixes, 0.0.7 - Added Advanced Settings presets to Maintenance. 0.0.6 - Added Clear Packages, the first of the Maintenance section.
-0.0.5 - Bug fixes
-0.0.4 - Added enabling of disabled addons on build first run. Added update repos on build first run.
-0.0.3 - Added prompt notifying when new version of installed build is available.
-0.0.2 - Initial Release
-		</news>
-		<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
-				<banner></banner>
-				<clearlogo></clearlogo>
-				<screenshot></screenshot>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.program.funs19wiz" name="Funswizard" version="2.1" provider-name="Funsterbe">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -172,34 +137,6 @@ provider-name="The Cleaner">
         See Changelog on Tools menu
         </news>
     </extension>
-</addon>
-
-<addon id="plugin.video.chainsgenocide" name="[COLORghostwhite]Genocide[/COLOR]" provider-name="chains" version="2.1.9">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.beautifulsoup4" />
-		<import addon="plugin.video.youtube" optional="true" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="chainsgenocide.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.python.module" library="resources/lib/" />
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<summary lang="en">[COLORdarkcyan]Genocide[/COLOR] - We do not host any of the contents</summary>
-		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<forum />
-		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-
-	</extension>
 </addon>
 
 <addon id="plugin.video.coalition" version="1.6.0" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
