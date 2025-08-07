@@ -139,7 +139,7 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="plugin.video.chainsgenocide" name="[COLORdarkcyan]Genocide[/COLOR]" provider-name="chains" version="3.0.4">
+<addon id="plugin.video.chainsgenocide" name="[COLORdarkcyan]Genocide[/COLOR]" provider-name="chains" version="3.0.5">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -167,7 +167,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.coalition" version="1.6.0" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.6.1" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
