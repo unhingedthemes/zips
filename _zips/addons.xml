@@ -139,7 +139,7 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="plugin.video.chainsgenocide" name="[COLORdarkcyan]Genocide[/COLOR]" provider-name="chains" version="3.0.7">
+<addon id="plugin.video.chainsgenocide" name="[COLORdarkcyan]Genocide[/COLOR]" provider-name="chains" version="3.0.8">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -497,7 +497,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
     name="The Chains"
-    version="4.2.2"
+    version="4.2.5"
     provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
