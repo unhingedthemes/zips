@@ -167,7 +167,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.coalition" version="1.6.1" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.6.2" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -229,7 +229,7 @@ provider-name="The Cleaner">
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <platform>all</platform>
         <reuselanguageinvoker>true</reuselanguageinvoker>
-        <description lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers</description>
+        <description lang="en">[COLORgreen]PREMIUMIZE SERVICE ONLY[/COLOR]</description>
         <disclaimer lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <news>INFO: For latest changes see Changelog within Tools of add-on.This addon searches websites for content.The author is not responsible for the use of this addon.The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</news>
         <summary>Media Content</summary>
@@ -448,7 +448,7 @@ provider-name="The Cleaner">
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.premiumizemetv" version="0.0.3" name="Premiumize.me TV" provider-name="premiumize.me">
+<addon id="plugin.video.premiumizemetv" version="1.0.1" name="Premiumize Cloud" provider-name="premiumize.me">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -458,8 +458,12 @@ provider-name="The Cleaner">
     <extension point="xbmc.addon.metadata">
         <summary>Browse your Premiumize.me cloud</summary>
         <description>This addon can be used to browse and stream any videos present in your Premiumize.me cloud</description>
-		<disclaimer>This addon supports Kodi from version Matrix 19.0.</disclaimer>
+		<disclaimer>This addon supports Kodi from version Matrix To Omega.</disclaimer>
         <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
         <website>https://www.premiumize.me</website>
 		<news>v0.0.3 renamed addon, fixed add</news>
 		<language>en</language>

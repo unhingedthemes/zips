@@ -1,4 +1,4 @@
-<addon id="plugin.video.coalition" version="1.6.1" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.6.2" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -60,7 +60,7 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <platform>all</platform>
         <reuselanguageinvoker>true</reuselanguageinvoker>
-        <description lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers</description>
+        <description lang="en">[COLORgreen]PREMIUMIZE SERVICE ONLY[/COLOR]</description>
         <disclaimer lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <news>INFO: For latest changes see Changelog within Tools of add-on.This addon searches websites for content.The author is not responsible for the use of this addon.The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</news>
         <summary>Media Content</summary>
