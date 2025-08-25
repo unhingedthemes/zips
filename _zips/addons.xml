@@ -500,8 +500,8 @@ provider-name="The Cleaner">
 </addon>
 
 <addon id="plugin.video.thechains"
-    name="[COLORgreen]The Chains[/COLOR]"
-    version="4.3.1"
+    name="[COLORcyan]The Chains[/COLOR]"
+    version="4.3.2"
     provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
