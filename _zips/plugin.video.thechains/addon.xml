@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.thechains"
     name="[COLORgreen]The Chains[/COLOR]"
-    version="4.3.5"
+    version="4.3.6"
     provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
