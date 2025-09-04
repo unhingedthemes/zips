@@ -198,7 +198,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.coalition" version="1.6.3" name="[COLORghostwhite]Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.6.5" name="The Coalition" provider-name="Chains">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -207,7 +207,15 @@ provider-name="The Cleaner">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="resources/lib/service.py" />
-    <extension point="xbmc.python.module" library="resources/lib/" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <summary>What you like to watch.[CR]</summary>
+        <description lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
+        <news>INFO: For latest changes see Changelog within add-on.</news>
+        <assets><icon>icon.png</icon><fanart>fanart.png</fanart><screenshot>screenshot.jpg</screenshot></assets>
+    </extension>
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <item library="resources/lib/contextmenu.py" args="refresh_widgets">
@@ -242,10 +250,6 @@ provider-name="The Cleaner">
                 <label>40008</label>
                 <visible>[String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)] + String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
             </item>
-            <item library="resources/lib/contextmenu.py" args="coalition_random_params">
-                <label>40010</label>
-                <visible>[String.IsEqual(ListItem.dbtype,tvshow)] + String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
-            </item>
             <item library="resources/lib/contextmenu.py" args="coalition_options_menu_params">
                 <label>40007</label>
                 <visible>String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
@@ -255,19 +259,6 @@ provider-name="The Cleaner">
                 <visible>String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
             </item>
         </menu>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <platform>all</platform>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <description lang="en">[COLORgreen]PREMIUMIZE SERVICE ONLY[/COLOR]</description>
-        <disclaimer lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <news>INFO: For latest changes see Changelog within Tools of add-on.This addon searches websites for content.The author is not responsible for the use of this addon.The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</news>
-        <summary>Media Content</summary>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
     </extension>
 </addon>
 
