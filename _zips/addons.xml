@@ -491,7 +491,7 @@ provider-name="The Cleaner">
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.premiumizemetv" version="1.0.1" name="Premiumize Cloud" provider-name="premiumize.me">
+<addon id="plugin.video.premiumizemetv" version="1.0.2" name="Premiumize Cloud" provider-name="premiumize.me">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -511,35 +511,6 @@ provider-name="The Cleaner">
 		<news>v0.0.3 renamed addon, fixed add</news>
 		<language>en</language>
 	</extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="2019.12.29"
-  name="SportsDevil"
-  provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="plugin.video.f4mTester" />
-   <import addon="script.module.slproxy" />
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" /> -->
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">SportsDevil</summary>
-    <description lang="en">[I]There can only be one.[/I][CR][CR]Unofficial Kodi Addon.</description>
-    <disclaimer lang="en">There can only be one.</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.thechains"

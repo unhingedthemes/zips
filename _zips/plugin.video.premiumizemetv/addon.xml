@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--suppress ALL -->
-<addon id="plugin.video.premiumizemetv" version="1.0.1" name="Premiumize Cloud" provider-name="premiumize.me">
+<addon id="plugin.video.premiumizemetv" version="1.0.2" name="Premiumize Cloud" provider-name="premiumize.me">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
