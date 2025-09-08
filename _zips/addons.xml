@@ -255,7 +255,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.genocide" version="6.6.7" name="Chains Genocide" provider-name="genocide">
+<addon id="plugin.video.genocide" version="6.6.8" name="Chains Genocide" provider-name="genocide">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
