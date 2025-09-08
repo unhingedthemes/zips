@@ -101,7 +101,7 @@ provider-name="The Cleaner">
 </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLORlimegreen]Jokers Absolution[/COLOR]" provider-name="absolution" version="3.3.5">
+<addon id="plugin.video.absolution" name="[COLORlimegreen]Jokers Absolution[/COLOR]" provider-name="absolution" version="3.3.6">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <!--<import addon="script.absolution.metadata" />-->
@@ -723,7 +723,7 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="script.module.absolutionscrapers" name="[COLORlimegreen]absolution Script[/COLOR]" version="2.1.6" provider-name="absolution">
+<addon id="script.module.absolutionscrapers" name="[COLORlimegreen]absolution Script[/COLOR]" version="2.1.7" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
