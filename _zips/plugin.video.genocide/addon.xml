@@ -1,4 +1,4 @@
-<addon id="plugin.video.genocide" version="6.6.9" name="Chains Genocide" provider-name="genocide">
+<addon id="plugin.video.genocide" version="6.7.0" name="Chains Genocide" provider-name="genocide">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
