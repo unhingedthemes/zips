@@ -234,7 +234,7 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="plugin.video.gears" version="1.0.6" name="The Gears" provider-name="Gears">
+<addon id="plugin.video.gears" version="1.0.7" name="The Gears" provider-name="Gears">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
