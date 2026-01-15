@@ -79,6 +79,50 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.theredwizard" name="[COLOR red]The Red Wizard[/COLOR]" version="4.2.7" provider-name="Slam, Sarge, Funsterbe, BYB, [COLOR red]The Red Wizard[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">[COLOR red]The Red Wizard for Kodi 21 Omega and Kodi 22 Piers[/COLOR]</summary>
+		<description lang="en_GB">[COLOR red]The Red Wizard for installing, updating and maintaining The Red Wizard Kodi 21 Omega and Kodi 22 Piers builds[/COLOR]</description>
+		<disclaimer lang="en_GB">[COLOR red]The author of this add-on does not host any content and has no affiliation with the content providers[/COLOR]</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum>https://t.me/+XiuBf9KvPfw2MzVk</forum>
+		<website>https://redwizard.xyz/</website>
+		<email>info@redwizard.xyz</email>
+		<source>https://github.com/Slamious/plugin.program.simplewizard</source>
+		<news>[COLOR red]2025-11-10
+- Deprecated plug-ins removed from optional dependencies: service.installlitebinaries, service.installmybinaries and service.installrwbinaries
+- Fix for "Add To Whitelist" error when a plug-in is in the Whitelist but is not installed (thank you Zaxxon709)
+- Menu text and Settings labels edited
+- The Red Wizard and The Red Repo added to Frest Start > Excludes
+- MDBList integration improved and added to Account Manager menu (thank you Zaxxon709)
+- Supports Kodi 21 Omega and Kodi 22 Piers
+- The Red Wizard has a new home! Go to https://redwizard.xyz[/COLOR]</news>
+		<assets>
+				<icon>resources/media/icon.png</icon>
+				<fanart>resources/media/fanart.jpg</fanart>
+				<screenshot>resources/media/screenshot01.jpg</screenshot>
+				<screenshot>resources/media/screenshot02.jpg</screenshot>
+				<screenshot>resources/media/screenshot03.jpg</screenshot>
+				<screenshot>resources/media/screenshot04.jpg</screenshot>
+				<screenshot>resources/media/screenshot05.jpg</screenshot>
+				<screenshot>resources/media/screenshot06.jpg</screenshot>
+				<screenshot>resources/media/screenshot07.jpg</screenshot>
+				<screenshot>resources/media/screenshot08.jpg</screenshot>
+				<screenshot>resources/media/screenshot09.jpg</screenshot>
+				<screenshot>resources/media/screenshot10.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="plugin.program.truncatetables"
 version="1.0.1"
 name="Truncate Tables"
@@ -599,56 +643,6 @@ provider-name="The Cleaner">
 			<screenshot></screenshot>
 			<screenshot></screenshot>
 			<screenshot></screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="repository.redwizard" name="[COLOR red]The Red Repo[/COLOR]" version="1.1.9" provider-name="[COLOR red]The Red Wizard[/COLOR]">
-	<extension point="xbmc.addon.repository" name="The Red Repo">
-		<dir><!--The Red Repo Main-->
-			<info compressed="false">https://repo.redwizard.xyz/redwizardrepo/main/addons.xml</info>
-			<checksum>https://repo.redwizard.xyz/redwizardrepo/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/main/</datadir>
-		</dir>
-		<dir minversion="20.9.0" maxversion="21.8.9"><!--The Red Repo Omega-->
-			<info compressed="false">https://repo.redwizard.xyz/redwizardrepo/21omega/addons.xml</info>
-			<checksum>https://repo.redwizard.xyz/redwizardrepo/21omega/addons.xml.md5</checksum>
-			<datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/21omega/</datadir>
-		</dir>
-		<dir minversion="21.9.0" maxversion="22.8.9"><!--The Red Repo Piers-->
-			<info compressed="false">https://repo.redwizard.xyz/redwizardrepo/22piers/addons.xml</info>
-			<checksum>https://repo.redwizard.xyz/redwizardrepo/22piers/addons.xml.md5</checksum>
-			<datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/22piers/</datadir>
-		</dir>
-		<dir minversion="19.0"><!--Coco Joe-->
-            <info compressed="false">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/</datadir>
-        </dir>
-		<dir><!--Resolve URL-->
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">[COLOR red]The Red Wizard Builds and Add-ons[/COLOR]</summary>
-		<description lang="en_GB">[COLOR red]The Red Wizard repo for The Red Wizard builds and add-ons[/COLOR]</description>
-		<disclaimer lang="en_GB">[COLOR red]The author of this add-on does not host any content and has no affiliation with the content providers[/COLOR]</disclaimer>
-		<news>[COLOR red]2025-07-14
-- Kodi 20 Nexus specific repository removed (Kodi 19 Leia no longer supported)
-- Descriptions added to addon.xml
-- Forum address updated
-- The Red Wizard has a new home! Go to https://redwizard.xyz[/COLOR]</news>
-		<platform>all</platform>
-		<language>en</language>
-		<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
-		<email>info@redwizard.xyz</email>
-		<website>https://www.redwizard.xyz/</website>
-		<forum>https://t.me/+XiuBf9KvPfw2MzVk</forum>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
 </addon>
