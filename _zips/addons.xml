@@ -788,7 +788,7 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="script.module.magnetomod" version="1.0.0" name="Magneto Mod" provider-name="magnetomod">
+<addon id="script.module.magnetomod" version="1.0.1" name="Magneto Mod" provider-name="magnetomod">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
