@@ -278,12 +278,13 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="plugin.video.gears" name="Gears" provider-name="chains" version="1.7.8">
+<addon id="plugin.video.gears" name="Gears" provider-name="chains" version="1.7.9">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.pil" version="1.1.7"/>
         <import addon="script.module.requests" version="2.19.1"/>
 		<import addon="script.module.magnetomod" version="1.0.0"/>
+		<import addon="script.module.cocoscrapersmod" version="1.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="resources/lib/gears.py">
         <provides>video</provides>
@@ -734,6 +735,36 @@ provider-name="The Cleaner">
     </assets>
     <news></news>
     </extension>
+</addon>
+
+<addon id="script.module.cocoscrapersmod"
+		name="Coco Scrapers Mod"
+		version="1.0.0"
+		provider-name="Coco/Chains">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="lib/default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="lib/service.py" start="startup" />
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<summary lang="en">External Scrapers Module</summary>
+		<description>This module is cocoscrapersmod With Fixed Scrapers Urls and Couple New Ones.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">This module simply scans for internet sources that matches common metadata.</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>
+       Mod Of Coco Scrapers With Fixed Urls
+		</news>
+	</extension>
 </addon>
 
 <addon id="script.module.freetv2" name="Free Tv" version="9.9.9" provider-name="Ghost">
