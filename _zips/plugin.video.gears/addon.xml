@@ -1,4 +1,4 @@
-<addon id="plugin.video.gears" name="Gears" provider-name="chains" version="1.8.1">
+<addon id="plugin.video.gears" name="Gears" provider-name="chains" version="1.8.2">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.pil" version="1.1.7"/>
@@ -19,8 +19,8 @@
 		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
         <license/>
         <assets>
-            <icon>gears_icon_01.png</icon>
-            <fanart>gears_fanart_01.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
         <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
     </extension>
