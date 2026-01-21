@@ -1,6 +1,6 @@
 <addon id="script.module.cocoscrapersmod" 
 		name="Coco Scrapers Mod" 
-		version="1.0.2" 
+		version="1.0.3" 
 		provider-name="Coco/Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1" />
