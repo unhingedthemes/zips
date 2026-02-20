@@ -107,18 +107,18 @@
 - Supports Kodi 21 Omega and Kodi 22 Piers
 - The Red Wizard has a new home! Go to https://redwizard.xyz[/COLOR]</news>
 		<assets>
-				<icon>resources/media/icon.png</icon>
-				<fanart>resources/media/fanart.jpg</fanart>
-				<screenshot>resources/media/screenshot01.jpg</screenshot>
-				<screenshot>resources/media/screenshot02.jpg</screenshot>
-				<screenshot>resources/media/screenshot03.jpg</screenshot>
-				<screenshot>resources/media/screenshot04.jpg</screenshot>
-				<screenshot>resources/media/screenshot05.jpg</screenshot>
-				<screenshot>resources/media/screenshot06.jpg</screenshot>
-				<screenshot>resources/media/screenshot07.jpg</screenshot>
-				<screenshot>resources/media/screenshot08.jpg</screenshot>
-				<screenshot>resources/media/screenshot09.jpg</screenshot>
-				<screenshot>resources/media/screenshot10.jpg</screenshot>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<screenshot>screenshot01.jpg</screenshot>
+				<screenshot>screenshot02.jpg</screenshot>
+				<screenshot>screenshot03.jpg</screenshot>
+				<screenshot>screenshot04.jpg</screenshot>
+				<screenshot>screenshot05.jpg</screenshot>
+				<screenshot>screenshot06.jpg</screenshot>
+				<screenshot>screenshot07.jpg</screenshot>
+				<screenshot>screenshot08.jpg</screenshot>
+				<screenshot>screenshot09.jpg</screenshot>
+				<screenshot>screenshot10.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
@@ -145,7 +145,7 @@ provider-name="The Cleaner">
 </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLORlimegreen]Jokers Absolution[/COLOR]" provider-name="absolution" version="3.3.6">
+<addon id="plugin.video.absolution" name="[COLORlimegreen]Jokers Absolution[/COLOR]" provider-name="absolution" version="3.3.7">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <!--<import addon="script.absolution.metadata" />-->
