@@ -214,7 +214,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.coalition" version="1.8.0" name="The Coalition" provider-name="Chains">
+<addon id="plugin.video.coalition" version="1.8.1" name="The Coalition" provider-name="Chains">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -450,7 +450,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
 	   name="The Chains"
-	   version="5.2.2"
+	   version="5.2.3"
 	   provider-name="The Chains">
   <requires>
 	<import addon="script.module.requests"/>
