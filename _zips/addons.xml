@@ -32,10 +32,9 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.funs19wiz" name="Funswizard" version="2.1" provider-name="Funsterbe">
+<addon id="plugin.program.funs19wiz" name="Funswizard" version="2.2" provider-name="Funsterbe">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>executable</provides>
@@ -52,8 +51,7 @@
 		<website></website>
 		<email></email>
 		<source></source>
-		<news>3.0.2 - Added speedtest. Bugfixes. 3.0.0 - Added backup/restore functionality for trakt/debrid accounts. Updated debrid/trakt authorization section. Restore of gui/skin settings has been added. Updated Advancedsettings configs. Updated wizard artwork. Added user edited color options for menus. Fixed wizard writing over itself during build installs. Edited fresh start to keep wizard/dependencies. Removed double ok dialog during build installs. Numerous other small fixes throughout.
-		</news>
+		<news></news>
 		<assets>
 				<icon>icon.png</icon>
 				<fanart>fanart.jpg</fanart>
@@ -62,21 +60,6 @@
 				<screenshot></screenshot>
 		</assets>
 	</extension>
-</addon>
-
-<addon id="plugin.program.funstersplacewizard" name="[COLOR yellow]Funstersplace Wizard[/COLOR]" version="3.0" provider-name="[COLOR red]Funsterbe[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Funstersplace Wizard</summary>
-    <description lang="en">In this wizard you will find the latest Funstersplace builds. Thanks whufclee at NaN, GUYS at TI, Brackets for the app installer!! RomanVM for the PyXBMCt libs. Fire TV Guru for the PyXBMCt layout  Also a very special Thanks to Surfacingx for the base code used in this add-on.</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.program.theredwizard" name="[COLOR red]The Red Wizard[/COLOR]" version="4.2.7" provider-name="Slam, Sarge, Funsterbe, BYB, [COLOR red]The Red Wizard[/COLOR]">
@@ -586,6 +569,30 @@ provider-name="The Cleaner">
 			<screenshot></screenshot>
 			<screenshot></screenshot>
 		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.funstersplace" name="funstersplace Repository" version="0.3" provider-name="funstersplace">
+	<extension point="xbmc.addon.repository" name="funstersplace">
+		<dir>
+			<info compressed="false">http://funstersplace.net/19repo/addons.xml</info>
+			<checksum>http://funstersplace.net/19repo/addonsmd5.txt</checksum>
+			<datadir zip="true">http://funstersplace.net/19repo/</datadir>
+		</dir>
+		<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"/>
+		<description lang="en">funstersplace Repo</description>
+		<genre>fun</genre>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
 	</extension>
 </addon>
 
