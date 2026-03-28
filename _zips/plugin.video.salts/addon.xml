@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.salts" version="2.1.0" name="SALTS - Stream All The Sources" provider-name="tknorris, zeus768">
+<addon id="plugin.video.salts" version="2.1.1" name="SALTS - Stream All The Sources" provider-name="tknorris, zeus768">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.resolveurl" version="5.1.0"/>
@@ -13,12 +13,17 @@
     <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Stream All The Sources - Modernized for Kodi 21+</summary>
-        <description lang="en_GB">SALTS is a multi-source video addon that aggregates content from various torrent sites, streaming sources, and supports debrid services (Real-Debrid, Premiumize, AllDebrid). Features Jackett integration for maximum torrent indexer coverage.
+        <description lang="en_GB">SALTS is a multi-source video addon with 34+ scrapers across torrent sites, streaming sources, anime trackers, and international sources.
 
-Supported Sources:
-- Torrent Sites: 1337x, YTS, EZTV, TorrentGalaxy, Nyaa, ThePirateBay, LimeTorrents, Torrentz2, RARBG mirrors
-- Jackett Integration: Connect to any Jackett-supported indexer
-- Debrid Services: Real-Debrid, Premiumize, AllDebrid for cached torrents
+Features:
+- Custom source dialog with quality breakdown
+- Up Next: auto-play next episode for TV series
+- Skip Intro prompt for TV episodes
+- Torrent Sites: 1337x, YTS, EZTV, TorrentGalaxy, TPB, NNM-Club, RuTracker, RuTor, Nyaa, etc.
+- Jackett/Prowlarr Integration: Connect to any indexer
+- Debrid Services: Real-Debrid, Premiumize, AllDebrid
+- Trakt.tv: Watchlists, collections, scrobbling, history
+- ResolveURL for 270+ hosting sites
 
 Revived and modernized by zeus768 for Kodi 21 Omega and above.
 Original author: tknorris</description>
@@ -27,13 +32,23 @@ Original author: tknorris</description>
         <website>https://github.com/zeus768/plugin.video.salts</website>
         <source>https://github.com/zeus768/plugin.video.salts</source>
         <news>
+v2.1.1 (2026)
+- Fixed: Replaced setResolvedUrl with xbmc.Player().play() to prevent rescrape loop
+- Fixed: Trakt API now uses native urllib (no more requests dependency crash)
+- Added: Custom source dialog showing source/scraper count and quality breakdown
+- Added: Up Next - auto-play next episode for TV series
+- Added: Skip Intro prompt during first 90 seconds of TV episodes
+- Removed: repository.gujal from repo
+
+v2.1.0 (2026)
+- Added 34+ scrapers including Russian, Chinese, Anime sources
+- Fixed TMDB integration with native urllib
+
 v2.0.0 (2026)
 - Complete rewrite for Kodi 21+ (Python 3)
-- Added modern torrent scrapers (1337x, YTS, EZTV, TorrentGalaxy, etc.)
-- Added Jackett integration for unlimited torrent indexers
+- Added modern torrent scrapers
+- Added Jackett integration
 - Added Real-Debrid, Premiumize, AllDebrid support
-- Removed dead streaming sites
-- Author: zeus768
         </news>
         <assets>
             <icon>icon.png</icon>
