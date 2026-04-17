@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.zeus768" name="Zeus768 Repository" version="1.0.7" provider-name="zeus768">
+<addon id="repository.zeus768" name="Zeus768 Repository" version="1.1.1" provider-name="zeus768, [COLOR red]The Red Wizard[/COLOR]">
     <extension point="xbmc.addon.repository" name="Zeus768 Repository">
-        <dir>
+        <dir><!--Zeus768 Repository-->
             <info compressed="false">https://raw.githubusercontent.com/Zeus768/zeus768/main/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Zeus768/zeus768/main/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Zeus768/zeus768/main/zips/</datadir>
         </dir>
+        <dir><!--ResolveURL Repository-->
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Zeus768 Repository - Kodi Addons</summary>
-        <description>Zeus768's Kodi addon repository.
+        <description>Zeus768's Kodi Addon Repository.
 
 Available Addons:
-- SALTS (Stream All The Sources) v2.1.1 - 35+ scrapers, free streams, autoplay, Up Next, Skip Intro, Trakt, debrid support
-- Orion - Torrent and usenet indexer
-- Strike Zone - Sports streaming addon
-- The Accountant - Kodi maintenance and debrid management tool
-- ResolveURL - URL resolver module</description>
+- SALTS (Stream All The Sources) - 35+ scrapers, Debrid, Trakt
+- Trakt Player - Click and Play, Debrid-powered
+- Orion - Media Explorer with Torrent Scrapers
+- Poseidon Player - Premium IPTV Player with EPG
+- Poseidon Guide - EPG Grid for Poseidon Player
+- The Accountant - Kodi Maintenance Suite
+- ResolveURL - URL Resolver Module</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
