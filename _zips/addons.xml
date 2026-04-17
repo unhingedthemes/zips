@@ -62,7 +62,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.theredwizard" name="[COLOR red]The Red Wizard[/COLOR]" version="4.2.7" provider-name="Slam, Sarge, Funsterbe, BYB, [COLOR red]The Red Wizard[/COLOR]">
+<addon id="plugin.program.theredwizard" name="[COLOR red]The Red Wizard[/COLOR]" version="4.2.8" provider-name="Slam, Sarge, Funsterbe, BYB, Zaxxon709, [COLOR red]The Red Wizard[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 	</requires>
@@ -81,27 +81,26 @@
 		<website>https://redwizard.xyz/</website>
 		<email>info@redwizard.xyz</email>
 		<source>https://github.com/Slamious/plugin.program.simplewizard</source>
-		<news>[COLOR red]2025-11-10
-- Deprecated plug-ins removed from optional dependencies: service.installlitebinaries, service.installmybinaries and service.installrwbinaries
-- Fix for "Add To Whitelist" error when a plug-in is in the Whitelist but is not installed (thank you Zaxxon709)
-- Menu text and Settings labels edited
-- The Red Wizard and The Red Repo added to Frest Start > Excludes
-- MDBList integration improved and added to Account Manager menu (thank you Zaxxon709)
+		<news>[COLOR red]2026-03-31
+- Migrated from Debrid Manager (depricated) to Account Manager Lite by Zaxxon709
+- Multiple changes to Fresh Start settings
+- Screenshots updated
+- Provider Names and CREDITS.txt updated
 - Supports Kodi 21 Omega and Kodi 22 Piers
 - The Red Wizard has a new home! Go to https://redwizard.xyz[/COLOR]</news>
 		<assets>
 				<icon>icon.png</icon>
 				<fanart>fanart.jpg</fanart>
-				<screenshot>resources/media/screenshot01.jpg</screenshot>
-				<screenshot>resources/media/screenshot02.jpg</screenshot>
-				<screenshot>resources/media/screenshot03.jpg</screenshot>
-				<screenshot>resources/media/screenshot04.jpg</screenshot>
-				<screenshot>resources/media/screenshot05.jpg</screenshot>
-				<screenshot>resources/media/screenshot06.jpg</screenshot>
-				<screenshot>resources/media/screenshot07.jpg</screenshot>
-				<screenshot>resources/media/screenshot08.jpg</screenshot>
-				<screenshot>resources/media/screenshot09.jpg</screenshot>
-				<screenshot>resources/media/screenshot10.jpg</screenshot>
+				<screenshot>screenshot01.jpg</screenshot>
+				<screenshot>screenshot02.jpg</screenshot>
+				<screenshot>screenshot03.jpg</screenshot>
+				<screenshot>screenshot04.jpg</screenshot>
+				<screenshot>screenshot05.jpg</screenshot>
+				<screenshot>screenshot06.jpg</screenshot>
+				<screenshot>screenshot07.jpg</screenshot>
+				<screenshot>screenshot08.jpg</screenshot>
+				<screenshot>screenshot09.jpg</screenshot>
+				<screenshot>screenshot10.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
