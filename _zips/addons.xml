@@ -153,7 +153,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.freeflow" name="[COLORblue]Free Flow[/COLOR]" version="1.0.7" provider-name="Chains">
+<addon id="plugin.video.freeflow" name="[COLORblue]Free Flow[/COLOR]" version="1.1.0" provider-name="Chains">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -172,7 +172,7 @@ provider-name="The Cleaner">
         <forum></forum>
         <website></website>
         <source></source>
-        <news>v1.7.1 - Fixed empty episode/season lists under Shows (single &lt;link&gt; items now play).&#10;v1.7.0 - Built-in ddownload.com resolver (no ResolveURL needed for that host). New Downloads section on the root menu with a "Download to device" context-menu entry on every playable item - shows live progress dialog, saves to a configurable folder (default special://home/downloads/), and lets you replay, delete or re-download items offline.&#10;v1.6.1 - Comprehensive Debug logging (default ON). Logs every HTTP/Trakt request, scan cycle, router action and exception to both Kodi log and Settings -&gt; Debug -&gt; View Debug Log.&#10;v1.6.0 - My Free Flow + full Trakt integration</news>
+        <news>v1.1.0 - DDownload resolver upgraded to api-v2. Direct URLs are now HTML-entity-decoded and percent-encoded so files with spaces  parentheses  play and download correctly. Premium API key is bundled by default and can still be overridden in Settings.&#10;v1.7.1 - Fixed empty episode/season lists under Shows (single &lt;link&gt; items now play).&#10;v1.7.0 - Built-in ddownload.com resolver (no ResolveURL needed for that host). New Downloads section on the root menu with a "Download to device" context-menu entry on every playable item - shows live progress dialog, saves to a configurable folder (default special://home/downloads/), and lets you replay, delete or re-download items offline.&#10;v1.6.1 - Comprehensive Debug logging (default ON). Logs every HTTP/Trakt request, scan cycle, router action and exception to both Kodi log and Settings -&gt; Debug -&gt; View Debug Log.&#10;v1.6.0 - My Free Flow + full Trakt integration</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
