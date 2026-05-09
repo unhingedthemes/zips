@@ -325,7 +325,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
            name="The Chains"
-           version="5.5.2"
+           version="5.5.4"
            provider-name="The Chains">
   <requires>
         <import addon="script.module.requests"/>
@@ -335,7 +335,6 @@ provider-name="The Cleaner">
             library="default.py">
         <provides>video</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="startup"/>
   <extension library="resources/modules/" point="xbmc.python.module" />
   <extension library="resources/sources/" point="xbmc.python.module" />
   <extension library="resources/" point="xbmc.python.module" />
