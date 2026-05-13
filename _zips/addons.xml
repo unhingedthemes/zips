@@ -351,7 +351,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
            name="The Chains"
-           version="5.5.7"
+           version="5.5.8"
            provider-name="The Chains">
   <requires>
         <import addon="script.module.requests"/>
