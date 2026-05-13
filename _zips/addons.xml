@@ -289,7 +289,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Ghost" version="1.3.0">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Ghost" version="1.3.1">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.homelander.artwork" />
@@ -782,7 +782,7 @@ Available Addons:
 	</extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="homelanderscrapers Module" version="2.0.1" provider-name="Ghost">
+<addon id="script.module.homelanderscrapers" name="homelanderscrapers Module" version="2.0.2" provider-name="Ghost">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
