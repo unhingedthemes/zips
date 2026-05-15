@@ -351,7 +351,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
            name="The Chains"
-           version="5.5.8"
+           version="5.6.0"
            provider-name="The Chains">
   <requires>
         <import addon="script.module.requests"/>
@@ -368,6 +368,15 @@ provider-name="The Cleaner">
         <reuselanguageinvoker>true</reuselanguageinvoker>
     <summary lang="en">The Chains</summary>
     <description lang="en">All the media as fast as possible</description>
+    <news>
+v5.6.0
+- AllDebrid: real cached-torrent detection restored (batch magnet/upload + ready flag, auto-cleans probe magnets so account history stays clean).
+- AllDebrid: magnet upload now uses the correct magnets[] parameter - link resolves succeed again.
+- AllDebrid: removed the long playback "countdown" hang on non-cached magnets (wait reduced to 15s and only used when AD reports the magnet as ready/uploading).
+- AllDebrid: file/link extraction now walks nested folders and uses a stricter video-extension filter so the right episode/movie file is picked.
+- AllDebrid: matching episode patterns expanded (s01e01, 1x01, ep01, episode 1, etc.).
+- Cache-check dialog (ResolveURL-side) now performs a real AllDebrid cache check.
+    </news>
 
     <platform>all</platform>
         <assets>
