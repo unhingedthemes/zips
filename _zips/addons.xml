@@ -153,32 +153,6 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="plugin.video.freeflow" name="[COLORblue]Free Flow[/COLOR]" version="4.1.2" provider-name="Chains">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests" version="2.22.0"/>
-        <import addon="script.module.resolveurl" version="5.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Free Flow - Movies, Shows and More by Chains</summary>
-        <description lang="en_GB">Free Flow is a video addon by Chains that streams Movies, TV Shows, WWE, Documentaries, Kids and more. Sources are read from Chains and resolved via ResolveURL. Posters are fetched from TMDB when missing. Includes full Trakt.tv integration: Trending, Popular, Anticipated, Recommendations, Watchlist, Collection, History, Liked Lists and personal Custom Lists with add / remove / create from the context menu.</description>
-        <disclaimer lang="en_GB">This addon does not host any content. All sources are linked from the open web.</disclaimer>
-        <platform>all</platform>
-        <license>GPL-3.0</license>
-        <forum></forum>
-        <website></website>
-        <source></source>
-        <news>v1.1.2 - New Settings &gt; Debug &gt; "Export Support Bundle" creates a zip with debug.log, the Free Flow lines from kodi.log, system info (Kodi/Python/OS/addon versions and sanitised settings) and a live ddownload API probe. API keys and direct URLs are redacted automatically. Play() now logs every step (chosen sublink, host, resolver timing, final URL handed to Kodi) so failures are diagnosable from a single bundle.&#10;v1.1.1 - Fix: feed sublinks wrapped in &lt;a href=...&gt; HTML are now unwrapped before resolving. Added ddl.to short-link support. Resolver logs success/failure and retries the API once on 5xx.&#10;v1.1.0 - DDownload resolver upgraded to api-v2. Direct URLs are now HTML-entity-decoded and percent-encoded so files with spaces  parentheses  play and download correctly. Premium API key is bundled by default and can still be overridden in Settings.&#10;v1.7.1 - Fixed empty episode/season lists under Shows (single &lt;link&gt; items now play).&#10;v1.7.0 - Built-in ddownload.com resolver (no ResolveURL needed for that host). New Downloads section on the root menu with a "Download to device" context-menu entry on every playable item - shows live progress dialog, saves to a configurable folder (default special://home/downloads/), and lets you replay, delete or re-download items offline.&#10;v1.6.1 - Comprehensive Debug logging (default ON). Logs every HTTP/Trakt request, scan cycle, router action and exception to both Kodi log and Settings -&gt; Debug -&gt; View Debug Log.&#10;v1.6.0 - My Free Flow + full Trakt integration</news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.video.gears" name="[COLORghostwhite]The Gears[/COLOR]" provider-name="chains" version="2.1.1">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -762,7 +736,7 @@ Available Addons:
    </extension>
 </addon>
 
-<addon id="script.module.gearsscrapers" version="1.3.4" name="Gears Scrapers" provider-name="gearsscrapers">
+<addon id="script.module.gearsscrapers" version="1.3.5" name="Gears Scrapers" provider-name="gearsscrapers">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
