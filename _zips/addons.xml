@@ -325,7 +325,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
 	   name="The Chains"
-	   version="5.7.1"
+	   version="5.7.2"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
@@ -716,7 +716,7 @@ Available Addons:
 
 <addon id="script.module.chainscrapers"
 		name="Chains Scrapers"
-		version="1.0.2"
+		version="1.0.4"
 		provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
