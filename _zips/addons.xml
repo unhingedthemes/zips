@@ -203,7 +203,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.6.3"
+	   version="1.6.4"
 	   provider-name="Ghost">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -764,7 +764,7 @@ Available Addons:
    </extension>
 </addon>
 
-<addon id="script.module.gearsscrapers" version="1.4.3" name="Gears Scrapers" provider-name="gearsscrapers">
+<addon id="script.module.gearsscrapers" version="1.4.4" name="Gears Scrapers" provider-name="gearsscrapers">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
