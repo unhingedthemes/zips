@@ -84,7 +84,7 @@ provider-name="The Cleaner">
 </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.3.7">
+<addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.3.8">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.absolution.artwork" />
@@ -102,8 +102,8 @@ provider-name="The Cleaner">
     <extension library="service.py" point="xbmc.service" start="startup" />
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <summary lang="en_GB">All In One Addon (Debrid Scrapers)</summary>
-        <description lang="en_GB">[COLORffc9a227]Chains Team[/COLOR]</description>
+        <summary lang="en_GB">Scraper addon with added one click section.</summary>
+        <description lang="en_GB">Exodus base addon for versions 21 and 22</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <forum />
@@ -116,7 +116,7 @@ provider-name="The Cleaner">
 			<screenshot>screenshot.jpg</screenshot>
         </assets>
         <news>
-        See Changelog on Tools menu
+          Changelog in settings
         </news>
     </extension>
 </addon>
