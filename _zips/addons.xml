@@ -84,7 +84,7 @@ provider-name="The Cleaner">
 </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.3.8">
+<addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.3.9">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.absolution.artwork" />
