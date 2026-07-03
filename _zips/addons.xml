@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.ChainsMatrix" name="Chains Build Wizard" version="3.0.9" provider-name="Chain Reaction">
+<addon id="plugin.program.chainswizard" name="Chains Build Wizard" version="4.0.0" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds,Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Chain Reaction is a lightweight template for installing builds on Kodi. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
+		<summary lang="en_GB">Chains Build Wizard" is a tool for backup/restore and maintenance of Kodi builds.</summary>
 		<description lang="en_GB">Kodi Wizard</description>
-		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<disclaimer lang="en_GB">This Addon contains no content.  Creator assumes no responsibily for content obtained by 3rd party addons. Use at your own risk!</disclaimer>
 		<language>en</language>
 		<platform>all</platform>
 		<license>GPL-2.0-or-later</license>
@@ -20,8 +19,7 @@
 		<website></website>
 		<email></email>
 		<source></source>
-		<news>3.0.2 - Added speedtest. Bugfixes. 3.0.0 - Added backup/restore functionality for trakt/debrid accounts. Updated debrid/trakt authorization section. Restore of gui/skin settings has been added. Updated Advancedsettings configs. Updated wizard artwork. Added user edited color options for menus. Fixed wizard writing over itself during build installs. Edited fresh start to keep wizard/dependencies. Removed double ok dialog during build installs. Numerous other small fixes throughout.
-		</news>
+		<news></news>
 		<assets>
 				<icon>icon.png</icon>
 				<fanart>fanart.jpg</fanart>
