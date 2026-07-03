@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.chainswizard" name="Chains Build Wizard" version="4.0.0" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds,Chains">
+<addon id="plugin.program.chainswizard" name="Chains Build Wizard" version="4.0.1" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds,Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
