@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.chainswizard" name="Chains Build Wizard" version="4.0.4" provider-name="Chains">
+<addon id="plugin.program.chainswizard" name="Chains Build And Theme Wizard" version="4.0.5" provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -9,8 +9,8 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">chains wizard is a tool for backup/restore and maintenance of Kodi builds.</summary>
-		<description lang="en_GB">Kodi Build And Maintenance Wizard.</description>
+		<summary lang="en_GB">Chains Wizard is a tool for backup/restore and maintenance of Kodi builds</summary>
+		<description lang="en_GB">Kodi Builds And Themes Wizard</description>
 		<disclaimer lang="en_GB">This Addon contains no content.</disclaimer>
 		<language>en</language>
 		<platform>all</platform>
