@@ -322,7 +322,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
 	   name="The Chains"
-	   version="5.8.2"
+	   version="5.8.4"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
@@ -595,39 +595,6 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="repository.zeus768" name="Zeus768 Repository" version="1.1.1" provider-name="zeus768, [COLOR red]The Red Wizard[/COLOR]">
-    <extension point="xbmc.addon.repository" name="Zeus768 Repository">
-        <dir><!--Zeus768 Repository-->
-            <info compressed="false">https://raw.githubusercontent.com/Zeus768/zeus768/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zeus768/zeus768/main/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Zeus768/zeus768/main/zips/</datadir>
-        </dir>
-        <dir><!--ResolveURL Repository-->
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Zeus768 Repository - Kodi Addons</summary>
-        <description>Zeus768's Kodi Addon Repository.
-
-Available Addons:
-- SALTS (Stream All The Sources) - 35+ scrapers, Debrid, Trakt
-- Trakt Player - Click and Play, Debrid-powered
-- Orion - Media Explorer with Torrent Scrapers
-- Poseidon Player - Premium IPTV Player with EPG
-- Poseidon Guide - EPG Grid for Poseidon Player
-- The Accountant - Kodi Maintenance Suite
-- ResolveURL - URL Resolver Module</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="script.absolution.artwork" version="4.1.6" name="[COLORffc9a227]Absolution Artwork[/COLOR]" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
@@ -714,7 +681,7 @@ Available Addons:
 
 <addon id="script.module.chainscrapers"
 		name="Chains Scrapers"
-		version="1.0.4"
+		version="1.0.5"
 		provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
