@@ -82,7 +82,7 @@ provider-name="The Cleaner">
 </extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.4.0">
+<addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.4.1">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.absolution.artwork" />
@@ -595,7 +595,7 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="script.absolution.artwork" version="4.1.6" name="[COLORffc9a227]Absolution Artwork[/COLOR]" provider-name="absolution">
+<addon id="script.absolution.artwork" version="4.1.7" name="[COLORffc9a227]Absolution Artwork[/COLOR]" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
@@ -650,7 +650,7 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="script.module.absolutionscrapers" name="[COLORffc9a227]Absolution Scrapers Module[/COLOR]" version="4.0.4" provider-name="Chains">
+<addon id="script.module.absolutionscrapers" name="[COLORffc9a227]Absolution Scrapers Module[/COLOR]" version="4.0.5" provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />

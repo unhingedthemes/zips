@@ -1,4 +1,4 @@
-<addon id="script.module.absolutionscrapers" name="[COLORffc9a227]Absolution Scrapers Module[/COLOR]" version="4.0.4" provider-name="Chains">
+<addon id="script.module.absolutionscrapers" name="[COLORffc9a227]Absolution Scrapers Module[/COLOR]" version="4.0.5" provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
