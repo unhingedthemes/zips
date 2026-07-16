@@ -200,7 +200,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.6.5"
+	   version="1.6.6"
 	   provider-name="Ghost">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -322,7 +322,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
 	   name="The Chains"
-	   version="5.9.1"
+	   version="5.9.2"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
