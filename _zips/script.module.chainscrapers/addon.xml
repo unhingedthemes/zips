@@ -1,6 +1,6 @@
 <addon id="script.module.chainscrapers" 
 		name="Chains Scrapers" 
-		version="1.0.5" 
+		version="1.0.7" 
 		provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
