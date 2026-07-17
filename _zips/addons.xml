@@ -322,7 +322,7 @@ provider-name="The Cleaner">
 
 <addon id="plugin.video.thechains"
 	   name="The Chains"
-	   version="5.9.6"
+	   version="5.9.7"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
