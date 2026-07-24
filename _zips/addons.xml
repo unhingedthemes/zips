@@ -60,28 +60,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.truncatetables"
-version="1.0.1"
-name="Truncate Tables"
-provider-name="The Cleaner">
-<requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en_GB">Clears addons database tables.  Backing up addons33.db is recommended.</summary>
-  <description lang="en_GB">Clears addons database tables.  Backing up addons33.db is recommended.</description>
-  <disclaimer lang="en_GB">Clears addons database tables.  Backing up addons33.db is recommended.</disclaimer>
-  <license>GPL-3.0-only</license>
-  <assets>
-    <icon>icon.png</icon>
-  </assets>
-  <news></news>
-</extension>
-</addon>
-
 <addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.4.1">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -550,51 +528,6 @@ provider-name="The Cleaner">
 	</extension>
 </addon>
 
-<addon id="repository.redwizard" name="[COLOR red]The Red Repo[/COLOR]" version="1.2.2" provider-name="[COLOR red]The Red Wizard[/COLOR]">
-	<extension point="xbmc.addon.repository" name="The Red Repo">
-		<dir><!--The Red Repo Main-->
-			<info compressed="false">https://repo.redwizard.xyz/redwizardrepo/main/addons.xml</info>
-			<checksum>https://repo.redwizard.xyz/redwizardrepo/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/main/</datadir>
-		</dir>
-		<dir minversion="20.9.0" maxversion="21.8.9"><!--The Red Repo Omega-->
-			<info compressed="false">https://repo.redwizard.xyz/redwizardrepo/21omega/addons.xml</info>
-			<checksum>https://repo.redwizard.xyz/redwizardrepo/21omega/addons.xml.md5</checksum>
-			<datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/21omega/</datadir>
-		</dir>
-		<dir minversion="21.9.0" maxversion="22.8.9"><!--The Red Repo Piers-->
-			<info compressed="false">https://repo.redwizard.xyz/redwizardrepo/22piers/addons.xml</info>
-			<checksum>https://repo.redwizard.xyz/redwizardrepo/22piers/addons.xml.md5</checksum>
-			<datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/22piers/</datadir>
-		</dir>
-		<dir><!--ResolveURL Repository-->
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">[COLOR red]The Red Wizard Builds and Add-ons[/COLOR]</summary>
-		<description lang="en_GB">[COLOR red]The Red Repo for The Red Wizard builds and add-ons[/COLOR]</description>
-		<disclaimer lang="en_GB">[COLOR red]The author of this add-on does not host any content and has no affiliation with the content providers[/COLOR]</disclaimer>
-		<news>[COLOR red]2026-03-23
-- Change to the add-on description
-- Typos corrected in the news section and changelog
-- Chains Repository and The 7o9 Repo now available to install from The Red Repo
-- The Red Wizard has a new home! Go to https://redwizard.xyz[/COLOR]</news>
-		<platform>all</platform>
-		<language>en</language>
-		<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
-		<email>info@redwizard.xyz</email>
-		<website>https://www.redwizard.xyz/</website>
-		<forum>https://t.me/+XiuBf9KvPfw2MzVk</forum>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="script.absolution.artwork" version="4.1.7" name="[COLORffc9a227]Absolution Artwork[/COLOR]" provider-name="absolution">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
@@ -609,29 +542,6 @@ provider-name="The Cleaner">
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>
-
-<addon id="script.ChainsMaintenance" name="Chains Maintenance" version="1.6" provider-name="Chains">
-  <requires>
-    <import addon="script.module.requests" version="1.0.2" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-     <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-	<summary>Maintenance Tool for Kodi</summary>
-	<description>Keep your Kodi running the way you want fast with a Custom Wizard Feature.</description>
-    <language></language>
-    <platform>all</platform>
-    <license>The MIT License</license>
-    <forum>-</forum>
-    <source>https://github.com</source>
-    <assets>
-	    <icon>icon.png</icon>
-	    <fanart>fanart.png</fanart>
-    </assets>
-  </extension>
 </addon>
 
 <addon id="script.homelander.artwork" version="1.0.4" name="[COLOR red]Homelander [/COLOR]Artwork" provider-name="Homelander">
@@ -806,5 +716,47 @@ provider-name="The Cleaner">
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon>
+
+<addon id="script.simkl"
+       name="Simkl TV Tracker"
+       version="3.2.4"
+       provider-name="Simkl">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Simkl Scrobbler with AI file detection system</summary>
+    <summary lang="en_US">Simkl Scrobbler with AI file detection system</summary>
+    <description lang="en_GB">Automatically set Movies and TV Shows\Anime as watched on Simkl.com. Simkl knows what you're watching, tells you episodes you've missed, and connects you to what your friends are into. Sign up at https://simkl.com to get all of these features: &#10;&#10;- Automatically track what you’re watching.&#10;- Receive notifications about new episodes.&#10;- Find recommendations based on your watch history.&#10;- See your friend's ratings.&#10;&#10;Simkl was created to help people, like you, to keep track of what you watch and receive notifications about new episodes and new movie releases based on your preferences and watch history.</description>
+    <description lang="en_US">Automatically set Movies and TV Shows\Anime as watched on Simkl.com. Simkl knows what you're watching, tells you episodes you've missed, and connects you to what your friends are into. Sign up at https://simkl.com to get all of these features: &#10;&#10;- Automatically track what you’re watching.&#10;- Receive notifications about new episodes.&#10;- Find recommendations based on your watch history.&#10;- See your friend's ratings.&#10;&#10;Simkl was created to help people, like you, to keep track of what you watch and receive notifications about new episodes and new movie releases based on your preferences and watch history.</description>
+    <disclaimer lang="en_GB">Not tested on Android</disclaimer>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=305324</forum>
+    <website>https://simkl.com</website>
+    <email>david@ddavo.me</email>
+    <source>https://github.com/SIMKL/script.simkl</source>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <language>en</language>
+    <news>
+      v3.2.4 (04-11-25)
+      - fixed bubble recursive call
+      v3.2.3 (31-10-25)
+      - fixed bubble popup and autoscrobble settings
+      v3.2.2 (05-01-24)
+      - fixed new python isAlive function
+      v3.2 (22-09-22)
+      - right click, mark as watched/unwatched added
+      v3.1 (21-07-13)
+      - detect engine updated
+      v3.0 (21-03-16)
+      - Kodi 19+ support
+    </news>
+  </extension>
 </addon>
 </addons>
