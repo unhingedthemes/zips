@@ -642,7 +642,7 @@
 
 <addon id="script.module.chainscrapers"
 		name="Chains Scrapers"
-		version="1.0.7"
+		version="1.0.8"
 		provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
@@ -690,7 +690,7 @@
    </extension>
 </addon>
 
-<addon id="script.module.gearsscrapers" version="1.4.9" name="Gears Scrapers" provider-name="gearsscrapers">
+<addon id="script.module.gearsscrapers" version="1.5.0" name="Gears Scrapers" provider-name="gearsscrapers">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
