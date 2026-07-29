@@ -300,7 +300,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="The Chains"
-	   version="5.9.9"
+	   version="6.0.0"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.requests"/>
