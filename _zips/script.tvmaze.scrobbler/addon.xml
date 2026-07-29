@@ -35,8 +35,8 @@ What this addon does:
     <email>roman1972@gmail.com</email>
     <source>https://github.com/romanvm/kodi.tvmaze.scrobbler</source>
     <assets>
-      <icon>resources/images/icon.png</icon>
-      <fanart>resources/images/background.jpg</fanart>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
     </assets>
     <news>1.2.1:
 - Fixed compatibility with Kodi 20 "Nexus".</news>
