@@ -122,7 +122,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.gears" name="[COLORghostwhite]The Gears[/COLOR]" provider-name="chains" version="2.3.8">
+<addon id="plugin.video.gears" name="[COLORghostwhite]The Gears[/COLOR]" provider-name="chains" version="2.4.0">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.pil" version="1.1.7"/>
@@ -135,8 +135,8 @@
     <extension point="xbmc.service" library="resources/lib/service.py"/>
     <extension point="xbmc.python.module" library="resources/lib/"/>
     <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en">Access your Derid Content.</summary>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en">Access your Derid Content. Part Of The Chains Repository.</summary>
         <description lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
         <platform>all</platform>
 		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
@@ -149,7 +149,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.genocide" version="6.9.7" name="Genocide" provider-name="genocide">
+<addon id="plugin.video.genocide" version="6.9.9" name="Genocide" provider-name="genocide">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -163,7 +163,7 @@
 		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-		<summary>Movies And Tv Shows</summary>
+		<summary>Movies And Tv Shows Part Of The Chains Repository.</summary>
 		<description lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
 		<news>INFO: For latest changes see Changelog within add-on.</news>
 		<assets><icon>icon.png</icon><fanart>fanart.jpg</fanart><screenshot>screenshot.jpg</screenshot></assets>
@@ -684,7 +684,7 @@
    </extension>
 </addon>
 
-<addon id="script.module.gearsscrapers" version="1.5.0" name="Gears Scrapers" provider-name="gearsscrapers">
+<addon id="script.module.gearsscrapers" version="1.5.1" name="Gears Scrapers" provider-name="gearsscrapers">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -696,7 +696,7 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<summary>gearsscrapers</summary>
+		<summary>Gears Scrapers Is Part Of The Chains Repository</summary>
 		<description>A module to query magnet providers.[CR][CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
 		<disclaimer>The author does not host or own any content found within this addon. The author is not responsible for the content found using this addon. The author is not responsible for the use of this addon.</disclaimer>
 		<assets><icon>icon.png</icon></assets>
