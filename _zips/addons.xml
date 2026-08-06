@@ -122,6 +122,43 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.easynews"
+       version="6.6.1"
+       name="EasyNews"
+       provider-name="EasyNews">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">EasyNews</summary>
+        <description lang="en_GB">Search and play video from your EasyNews account inside Kodi. Browse saved newsgroups, search history, play history, TMDB discovery, downloads folder, and optional split-file lookup. Report issues, request features, Buy Me A Coffee on Github [COLOR yellow]https://github.com/EasyNewssoft/EasyNewsKodi[/COLOR]</description>
+        <disclaimer lang="en_GB">This add-on is not affiliated with EasyNews. You need a valid EasyNews membership and are responsible for complying with their terms of service and applicable law.</disclaimer>
+        <news>v6.6.1
+- Fixed search-result thumbnails — EasyNews preview URLs now fixed after Easynews changed stuff!
+
+v6.6.0
+- Fixed startup crash on some older Kodi boxes.
+- Play with NOSEEK — new context-menu option on search results and play history; can help streams start faster on some setups. Note: no seeking or skipping a stream is possible for movies launched with this option
+- Search sort order — sort results by post date (newest or oldest) or file size (smallest or largest).
+
+v6.5.1
+- Search cache — Revisit the same search faster when paging back or switching size. Cache saved for 30 mins.
+- Video size — Default to All, 720p, 1080p, or 4K; change anytime from the main menu or search results.
+- Account usage — Main menu shows plan and gigs left; tap to refresh.
+- Better EasyNews routing — Streams use your account's best route / server farm when available; Tools can show your current route.
+- TMDB discovery — Browse and search movies and TV; drill into episodes and search EasyNews in one tap.
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources\fanart.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.gears" name="[COLORghostwhite]The Gears[/COLOR]" provider-name="chains" version="2.4.0">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -684,7 +721,7 @@
    </extension>
 </addon>
 
-<addon id="script.module.gearsscrapers" version="1.5.1" name="Gears Scrapers" provider-name="gearsscrapers">
+<addon id="script.module.gearsscrapers" version="1.5.2" name="Gears Scrapers" provider-name="gearsscrapers">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
