@@ -741,7 +741,7 @@ v6.5.1
 	</extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="homelanderscrapers Module" version="2.0.3" provider-name="Ghost">
+<addon id="script.module.homelanderscrapers" name="homelanderscrapers Module" version="2.0.4" provider-name="Ghost">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
