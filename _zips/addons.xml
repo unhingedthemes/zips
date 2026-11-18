@@ -60,7 +60,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.4.1">
+<addon id="plugin.video.absolution" name="[COLORffc9a227]Absolution[/COLOR]" provider-name="Chains" version="4.4.2">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.absolution.artwork" />
@@ -186,7 +186,7 @@ v6.5.1
     </extension>
 </addon>
 
-<addon id="plugin.video.genocide" version="6.9.9" name="Genocide" provider-name="genocide">
+<addon id="plugin.video.genocide" version="7.0.0" name="Genocide" provider-name="genocide">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -661,7 +661,7 @@ v6.5.1
     </extension>
 </addon>
 
-<addon id="script.module.absolutionscrapers" name="[COLORffc9a227]Absolution Scrapers Module[/COLOR]" version="4.0.5" provider-name="Chains">
+<addon id="script.module.absolutionscrapers" name="[COLORffc9a227]Absolution Scrapers Module[/COLOR]" version="4.0.6" provider-name="Chains">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
